@@ -10,7 +10,7 @@ export default function Home() {
 
       <TopBar/>
 
-      <Container className="pb-14">
+      <Container className="pb-14 mt-4">
         <div className="flex gap-[60px]">
           {/* Filtration */}
           <div className="w-[250px]">
