@@ -27,80 +27,80 @@ export const Filters: React.FC<Props> = ({ className }) => {
 
                 <RangeSlider min={0} max={7999} step={1} value={[0, 7999]} />
             </div>
+            
+            <b>Items</b>
 
             <CheckBoxFilterGroup
-                title="Items"
-                className="mt-5"
-                limit={3}
-                defaultItems={[
-                    {
-                        text: 'Cap',
-                        value: '1'
-                    },
-                    {
-                        text: 'Cardigan',
-                        value: '2'
-                    },
-                    {
-                        text: 'Slippers',
-                        value: '3'
-                    },
-                    {
-                        text: 'Vest',
-                        value: '4'
-                    },
-                ]}
-                items={[
-                    {
-                        text: 'Cap',
-                        value: '1'
-                    },
-                    {
-                        text: 'Cardigan',
-                        value: '2'
-                    },
-                    {
-                        text: 'Slippers',
-                        value: '3'
-                    },
-                    {
-                        text: 'Vest',
-                        value: '4'
-                    },
-                    {
-                        text: 'Cap',
-                        value: '1'
-                    },
-                    {
-                        text: 'Cardigan',
-                        value: '2'
-                    },
-                    {
-                        text: 'Slippers',
-                        value: '3'
-                    },
-                    {
-                        text: 'Vest',
-                        value: '4'
-                    },
-                    {
-                        text: 'Cap',
-                        value: '1'
-                    },
-                    {
-                        text: 'Cardigan',
-                        value: '2'
-                    },
-                    {
-                        text: 'Slippers',
-                        value: '3'
-                    },
-                    {
-                        text: 'Vest',
-                        value: '4'
-                    },
-                ]}
-
+            className="mt-5"
+            limit={3}
+            defaultItems={[
+                {
+                    text: 'Cap',
+                    value: '1'
+                },
+                {
+                    text: 'Cardigan',
+                    value: '2'
+                },
+                {
+                    text: 'Slippers',
+                    value: '3'
+                },
+                {
+                    text: 'Vest',
+                    value: '4'
+                },
+            ]}
+            items={[
+                {
+                    text: 'Cap',
+                    value: '1'
+                },
+                {
+                    text: 'Cardigan',
+                    value: '2'
+                },
+                {
+                    text: 'Slippers',
+                    value: '3'
+                },
+                {
+                    text: 'Vest',
+                    value: '4'
+                },
+                {
+                    text: 'Cap',
+                    value: '1'
+                },
+                {
+                    text: 'Cardigan',
+                    value: '2'
+                },
+                {
+                    text: 'Slippers',
+                    value: '3'
+                },
+                {
+                    text: 'Vest',
+                    value: '4'
+                },
+                {
+                    text: 'Cap',
+                    value: '1'
+                },
+                {
+                    text: 'Cardigan',
+                    value: '2'
+                },
+                {
+                    text: 'Slippers',
+                    value: '3'
+                },
+                {
+                    text: 'Vest',
+                    value: '4'
+                },
+            ]}
             />
         </div>
     )

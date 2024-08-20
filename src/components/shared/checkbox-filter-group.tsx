@@ -7,7 +7,7 @@ import { Input } from "../ui/lib";
 type Item = FilterChecboxProps;
 
 interface Props{
-    title: string;
+    title?: string;
     items: Item[];
     defaultItems: Item[];
     limit?: number;
@@ -72,8 +72,6 @@ export const CheckBoxFilterGroup: React.FC<Props> = (
                     </button>
                 </div>
             )}
-            
-
         </div>
     )
 }
