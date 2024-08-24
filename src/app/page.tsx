@@ -22,7 +22,7 @@ export default function Home() {
 
           {/*List of products */}
           <div className="flex-1">
-            <div className="flex flex-col gap-16" style={{ height: 2000 }}>
+            <div className="flex flex-col gap-16">
               <ProductsGroupList title={"Clothes"} items={[{
                 id: 1,
                 name: 'Bebra',
