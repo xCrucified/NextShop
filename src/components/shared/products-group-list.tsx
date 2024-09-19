@@ -4,7 +4,7 @@ import React from "react";
 import { useIntersection } from 'react-use';
 
 import { Title } from "./lib";
-import { cn } from "@/lib/utils";
+import { cn } from "../../../lib/utils";
 import { ProductCard } from "./product-card";
 import { useCategoryStore } from "../../../store/category";
 

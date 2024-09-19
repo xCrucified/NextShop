@@ -19,7 +19,7 @@ export default function Home() {
             <Filters />
           </div>
 
-          {/*List of products */}
+          {/*List of pr oducts */}
           <div className="flex-1">
             <div className="flex flex-col gap-16">
               <ProductsGroupList title={"clothes"} items={[{

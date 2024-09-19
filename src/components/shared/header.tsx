@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "../../../lib/utils";
 import Image from 'next/image'
 import { Button } from "../ui/lib";
 import { ArrowRight, ShoppingBag, User } from "lucide-react";
