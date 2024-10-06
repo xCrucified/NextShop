@@ -19,19 +19,19 @@ export default function Home() {
             <Filters />
           </div>
 
-          {/*List of pr oducts */}
+          {/*List of products */}
           <div className="flex-1">
             <div className="flex flex-col gap-16">
               <ProductsGroupList title={"clothes"} items={[{
                 id: 1,
-                name: 'Bebra',
+                name: 'Beira',
                 imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI0Oc9tGIzrpArxdS1fwqz1vI8jrVMefimow&s',
                 price: 345,
                 items: [{ price: 345 }],
               },
               {
                 id: 2,
-                name: 'Bebra',
+                name: 'Beira',
                 imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI0Oc9tGIzrpArxdS1fwqz1vI8jrVMefimow&s',
                 price: 345,
                 items: [{ price: 345 }],
