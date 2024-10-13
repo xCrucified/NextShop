@@ -6,7 +6,7 @@ import { Input } from "../ui/lib";
 
 type Item = FilterChecboxProps;
 
-interface Props{
+interface Props {
     title?: string;
     items: Item[];
     defaultItems: Item[];
@@ -39,15 +39,15 @@ export const CheckBoxFilterGroup: React.FC<Props> = (
         setSearchValue(e.target.value);
     }
 
-    return(
+    return (
         <div className={className}>
             <p className="font-bold mt-3">{title}</p>
 
             {showAll && (
                 <div className="mb-5">
-                    <Input 
-                        onChange={onChangeSearchInput} 
-                        placeholder={searchInputPlaceholder} 
+                    <Input
+                        onChange={onChangeSearchInput}
+                        placeholder={searchInputPlaceholder}
                         className="bg-gray-50 border-none"
                     />
                 </div>
@@ -55,12 +55,12 @@ export const CheckBoxFilterGroup: React.FC<Props> = (
 
             <div className="flex flex-col gap-4 max-h-96 pr-2 overflow-auto scrollbar">
                 {list.map((item, index) => (
-                    <FilterCheckbox 
+                    <FilterCheckbox
                         key={index}
                         text={item.text}
                         value={item.value}
                         endAdornment={item.endAdornment}
-                        checked={false}  
+                        checked={false}
                         onCheckedChange={(ids) => console.log(ids)}
                     />
                 ))}
